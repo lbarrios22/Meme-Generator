@@ -1,0 +1,84 @@
+*{
+    font-family: arial;
+}
+
+.page-description{
+    font-size: 1em;
+    font-weight: lighter;
+    margin-bottom: 0;
+}
+
+.main-container{
+    background-color: #d7d7d7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button{
+    background-color: lightblue;
+    display: inline-block;
+}
+
+.form-container{
+    text-align: center;
+    background-color: rgb(211,211,211);
+}
+
+label{
+    display: inline-block;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+input{
+    width: 700px;
+    text-align: left;
+}
+
+.meme-container {
+    border: 1px black solid;
+  display: inline-block;
+  margin: 10px;
+  justify-content: center;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+img {
+  display: block;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+img:hover {
+  background-color: black;
+  filter: brightness(50%);
+}
+
+.top-caption {
+  top: -5%;
+  left: 38%;
+  color: white;
+  position: absolute;
+  font-family: Impact;
+  word-wrap: break-word;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+  z-index: 1;
+}
+
+.bottom-caption {
+  color: white;
+  top: 75%;
+  left: 30%;
+  position: absolute;
+  font-family: Impact;
+  word-wrap: break-word;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 1px;
+}
